@@ -20,7 +20,7 @@ constructor(){
     this.io = socketio( this.server,{});
 }
 middlewares(){
-    this.app.use( express.static(path.resolve(__dirname, '../public')));
+    this.app.use( express.static(path.resolve(__dirname, '../Public')));
 
 }
 configurarSocket(){
